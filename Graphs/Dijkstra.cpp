@@ -4,7 +4,6 @@ using namespace std;
 
 #define int long long
 
-
 void solve() {
     int n, m;
     cin >> n >> m;
