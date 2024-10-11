@@ -14,6 +14,7 @@ void solve() {
         g[u].emplace_back(v, w);
         g[v].emplace_back(u, w);
     }
+
     vector<int> d(n + 1, 1e18);
     vector<int> p(n + 1, -1);
     d[s] = 0;
